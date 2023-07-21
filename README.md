@@ -132,6 +132,28 @@ Scene.Evaluate()>N返回0，否则返回1。
 
 在很多时候动作和情景具有固定的组合，`动作绑定器集`和`评估器集`可以用来简化这些情况下的固定节点，要使用`动作绑定器集`和`评估器集`，需要创建相应的图资源，在这两种子图中，需要创建相应的唯一节点子图输出/动作绑定器集或评估器集，子图输出节点的输入可以连接多个`动作绑定器`或者`评估器`节点，在`AIGraph`中，使用相应的集节点连接子图，即可使用预制的多个动作组合或者情景评估组合。
 
+## 使用
+
+```c#
+// 定义一个IAIContext类存储AI需要获知的必要信息
+// 一般只有一个
+public class MyContext : IAIContext
+{
+	// ......
+}
+public AIGraph AI;
+// 设置的AI更新间隔时间
+public float UpdateTime = AI.Decider.UpdateInterval;
+// 上下文
+MyContext context；
+// 在需要时，调用AI.Decider.Decision(context)获取当前最适合的动作
+IAction action = AI.Decider.Decision(context);
+// 执行动作，AI编辑器不包含与执行有关的事项，执行部分可以放在能通过IAIContext索引的任何地方
+action.Execute(context);
+```
+
+
+
 ## 安装
 
 - 在安装前，需要确保已经安装了[xNode](https://github.com/Siccity/xNode)和[Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)

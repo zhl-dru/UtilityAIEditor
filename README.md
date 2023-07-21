@@ -2,7 +2,7 @@
 
 > 这是一个基于[xNode](https://github.com/Siccity/xNode)和[Odin](https://assetstore.unity.com/packages/tools/utilities/odin-inspector-and-serializer-89041)的最小UtilityAI节点编辑器，在Unity中使用，`UtilityAIEditor`定义了许多常用的评分，选择办法，不包含任何具体的AI逻辑，可以在任何情况下使用，方便的组织AI代码。
 
-![](D:\GitHub\UtilityAI\Image\示例.png)
+![](./Image/示例.png)
 
 ## Action and Scene
 

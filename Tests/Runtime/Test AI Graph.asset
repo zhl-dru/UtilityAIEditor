@@ -1,0 +1,652 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8759155747885603756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdec0aecf29bce4bbeda8de244980a2, type: 3}
+  m_Name: Curve Evaluator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -936, y: -600}
+  ports:
+    keys:
+    - evaluator
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: -8759155747885603756}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: 7234844761095983611}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  Annotate: "\u751F\u547D\u503C\u8D8A\u4F4E\uFF0C\u5206\u6570\u8D8A\u9AD8"
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: -0.15905614
+      outSlope: -0.15905614
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.21420832
+      value: 0.96592885
+      inSlope: -1.5412171
+      outSlope: -1.5412171
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.06992035
+    - serializedVersion: 3
+      time: 0.39852977
+      value: 0.7056625
+      inSlope: -5.236738
+      outSlope: -5.236738
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.053389277
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: -1.1732293
+      outSlope: -1.1732293
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-5867224346366253193
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdec0aecf29bce4bbeda8de244980a2, type: 3}
+  m_Name: Curve Evaluator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -936, y: -120}
+  ports:
+    keys:
+    - evaluator
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: -5867224346366253193}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: -2804267145342496684}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  Annotate: "\u4F7F\u7528\u751F\u547D\u503C\u4E3A\u88C5\u586B\u610F\u5411\u4FEE\u6B63\uFF0C\u4F18\u5148\u4FDD\u6301\u751F\u547D\u503C"
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0.2649702
+      outSlope: 0.2649702
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.30042368
+      value: 0.07960333
+      inSlope: 0.7903094
+      outSlope: 0.7903094
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 1
+      inSlope: 1.3156487
+      outSlope: 1.3156487
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &-4765879051580922489
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff22fbd2ca8654341bb52255f04902f9, type: 3}
+  m_Name: Decider
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: 168, y: -280}
+  ports:
+    keys:
+    - selector
+    values:
+    - _fieldName: selector
+      _node: {fileID: -4765879051580922489}
+      _typeQualifiedName: UtilityAI.SelectorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: selector
+        node: {fileID: -750543452118521163}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  selector: {fileID: 0}
+--- !u!114 &-4752945089885821955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c2eddc75815dc4aa8677f69512a576, type: 3}
+  m_Name: Binder Single
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: -504}
+  ports:
+    keys:
+    - scorer
+    - binder
+    values:
+    - _fieldName: scorer
+      _node: {fileID: -4752945089885821955}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: 7234844761095983611}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: binder
+      _node: {fileID: -4752945089885821955}
+      _typeQualifiedName: UtilityAI.BinderNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: binder
+        node: {fileID: -750543452118521163}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  binder: {fileID: 0}
+  Annotate: "\u6CBB\u7597"
+  scorer: {fileID: 0}
+--- !u!114 &-2804267145342496684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd40448b27904b479a327082ffb8800, type: 3}
+  m_Name: Mult Scorer
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -648, y: -248}
+  ports:
+    keys:
+    - evaluator
+    - scorer
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: -2804267145342496684}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: 7588804693005388404}
+        reroutePoints: []
+      - fieldName: evaluator
+        node: {fileID: -5867224346366253193}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: scorer
+      _node: {fileID: -2804267145342496684}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: 5943327393565636437}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  scorer: {fileID: 0}
+--- !u!114 &-750543452118521163
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec7d0c0f59601624dabcba4c4f5200ed, type: 3}
+  m_Name: Max Selector
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -88, y: -280}
+  ports:
+    keys:
+    - binder
+    - selector
+    values:
+    - _fieldName: binder
+      _node: {fileID: -750543452118521163}
+      _typeQualifiedName: UtilityAI.BinderNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: binder
+        node: {fileID: -4752945089885821955}
+        reroutePoints: []
+      - fieldName: binder
+        node: {fileID: 5943327393565636437}
+        reroutePoints: []
+      - fieldName: binder
+        node: {fileID: 1352111306670339328}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: selector
+      _node: {fileID: -750543452118521163}
+      _typeQualifiedName: UtilityAI.SelectorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: selector
+        node: {fileID: -4765879051580922489}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  binder: {fileID: 0}
+  selector: {fileID: 0}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e070c93834b11b044b04bf6775364025, type: 3}
+  m_Name: Test AI Graph
+  m_EditorClassIdentifier: 
+  nodes:
+  - {fileID: -4765879051580922489}
+  - {fileID: -750543452118521163}
+  - {fileID: -4752945089885821955}
+  - {fileID: 5943327393565636437}
+  - {fileID: 1352111306670339328}
+  - {fileID: -8759155747885603756}
+  - {fileID: 7922785048035599996}
+  - {fileID: 5413050805533018743}
+  - {fileID: 7234844761095983611}
+  - {fileID: 1403037063423225256}
+  - {fileID: 7588804693005388404}
+  - {fileID: -5867224346366253193}
+  - {fileID: -2804267145342496684}
+--- !u!114 &1352111306670339328
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c2eddc75815dc4aa8677f69512a576, type: 3}
+  m_Name: Binder Single
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: 280}
+  ports:
+    keys:
+    - scorer
+    - binder
+    values:
+    - _fieldName: scorer
+      _node: {fileID: 1352111306670339328}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: 1403037063423225256}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: binder
+      _node: {fileID: 1352111306670339328}
+      _typeQualifiedName: UtilityAI.BinderNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: binder
+        node: {fileID: -750543452118521163}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  binder: {fileID: 0}
+  Annotate: "\u5F00\u706B"
+  scorer: {fileID: 0}
+--- !u!114 &1403037063423225256
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd40448b27904b479a327082ffb8800, type: 3}
+  m_Name: Mult Scorer
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -808, y: 280}
+  ports:
+    keys:
+    - evaluator
+    - scorer
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: 1403037063423225256}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: 7922785048035599996}
+        reroutePoints: []
+      - fieldName: evaluator
+        node: {fileID: 5413050805533018743}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: scorer
+      _node: {fileID: 1403037063423225256}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: 1352111306670339328}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  scorer: {fileID: 0}
+--- !u!114 &5413050805533018743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c89da6b30dff44ebfbf1d37ba718a1, type: 3}
+  m_Name: Value Evaluator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1112, y: 360}
+  ports:
+    keys:
+    - evaluator
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: 5413050805533018743}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: 1403037063423225256}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  Annotate: "\u5982\u679C\u5F39\u836F\u91CF\u975E\u5E38\u5C11\uFF0C\u4E58\u4EE50\u6765\u8DF3\u8FC7\u5F00\u706B"
+  value: 0.001
+  inversion: 0
+--- !u!114 &5943327393565636437
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3c2eddc75815dc4aa8677f69512a576, type: 3}
+  m_Name: Binder Single
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -376, y: -312}
+  ports:
+    keys:
+    - scorer
+    - binder
+    values:
+    - _fieldName: scorer
+      _node: {fileID: 5943327393565636437}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: -2804267145342496684}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: binder
+      _node: {fileID: 5943327393565636437}
+      _typeQualifiedName: UtilityAI.BinderNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: binder
+        node: {fileID: -750543452118521163}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  binder: {fileID: 0}
+  Annotate: "\u88C5\u586B"
+  scorer: {fileID: 0}
+--- !u!114 &7234844761095983611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2ee1f0404d9459e438fd244d1f83f3c6, type: 3}
+  m_Name: Max Scorer
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -632, y: -472}
+  ports:
+    keys:
+    - evaluator
+    - scorer
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: 7234844761095983611}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: -8759155747885603756}
+        reroutePoints: []
+      _direction: 0
+      _connectionType: 0
+      _typeConstraint: 2
+      _dynamic: 0
+    - _fieldName: scorer
+      _node: {fileID: 7234844761095983611}
+      _typeQualifiedName: UtilityAI.ScorerNode, Dru.UtilityAI, Version=0.0.0.0, Culture=neutral,
+        PublicKeyToken=null
+      connections:
+      - fieldName: scorer
+        node: {fileID: -4752945089885821955}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  scorer: {fileID: 0}
+--- !u!114 &7588804693005388404
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 56c89da6b30dff44ebfbf1d37ba718a1, type: 3}
+  m_Name: Value Evaluator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -936, y: -360}
+  ports:
+    keys:
+    - evaluator
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: 7588804693005388404}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: -2804267145342496684}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  Annotate: "\u5982\u679C\u6CA1\u6709\u5F39\u836F\uFF0C\u603B\u662F\u6709\u88C5\u586B\u7684\u610F\u5411"
+  value: 0.001
+  inversion: 1
+--- !u!114 &7922785048035599996
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dbdec0aecf29bce4bbeda8de244980a2, type: 3}
+  m_Name: Curve Evaluator
+  m_EditorClassIdentifier: 
+  graph: {fileID: 11400000}
+  position: {x: -1112, y: 136}
+  ports:
+    keys:
+    - evaluator
+    values:
+    - _fieldName: evaluator
+      _node: {fileID: 7922785048035599996}
+      _typeQualifiedName: UtilityAI.EvaluatorNode, Dru.UtilityAI, Version=0.0.0.0,
+        Culture=neutral, PublicKeyToken=null
+      connections:
+      - fieldName: evaluator
+        node: {fileID: 1403037063423225256}
+        reroutePoints: []
+      _direction: 1
+      _connectionType: 1
+      _typeConstraint: 2
+      _dynamic: 0
+  evaluator: {fileID: 0}
+  Annotate: "\u5F00\u706B\u603B\u662F\u5F97\u5230\u4E00\u4E2A\u9002\u4E2D\u7684\u5206\u6570"
+  curve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0.51874924
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 0.9958496
+      value: 0.51874924
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 34
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
